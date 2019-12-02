@@ -14,6 +14,10 @@ All metrics are exposed at [/actuator/prometheus](http://localhost:8080/actuator
 This repository also contains a configuration for Prometheus, which scrapes the application. 
 Both the application and Prometheus are brought up using Docker Compose.
 
+## Pre-requisites
+
+* Docker (unless you just want to run the application)
+
 ## Running
 
 `./gradlew build docker dockerComposeUp`
