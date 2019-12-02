@@ -11,7 +11,7 @@ different types of Prometheus metric:
 
 All metrics are exposed at [/actuator/prometheus](http://localhost:8080/actuator/prometheus).
 
-This repository also conta:wqins a configuration for Prometheus, to point at the application. 
+This repository also contains a configuration for Prometheus, which scrapes the application. 
 Both the application and Prometheus are brought up using Docker Compose.
 
 ## Running
