@@ -1,0 +1,14 @@
+version: "3"
+services:
+  application:
+    image: metric-types:0.1.0-SNAPSHOT
+    ports:
+      - 8080:8080
+    depends_on:
+      - prometheus
+  prometheus:
+    image: prom/prometheus:latest
+    volumes:
+      - ./prometheus.yml:/etc/prometheus/prometheus.yml
+    ports:
+      - 9090:9090
