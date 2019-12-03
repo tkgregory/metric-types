@@ -19,7 +19,6 @@ public class CounterController {
     @GetMapping(value = "/hello")
     public String hello() {
         requestCount.inc();
-        requestCount.inc(0.5);
 
         return "Hi!";
     }
