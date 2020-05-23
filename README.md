@@ -16,6 +16,7 @@ Both the application and Prometheus are brought up using Docker Compose.
 
 ## Pre-requisites
 
+* JDK 11+
 * Docker (unless you just want to run the application)
 
 ## Running
