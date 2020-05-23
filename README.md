@@ -24,7 +24,4 @@ Both the application and Prometheus are brought up using Docker Compose.
 
 ## Stopping
 
-`docker-compose down`
-
-(unfortunately the Palantir Gradle plugin doesn't provide a *dockerComposeDown* task
-so we have to run the *docker-compose* command directly)
+`./gradlew dockerComposeDown`
