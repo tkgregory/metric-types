@@ -11,7 +11,7 @@ different types of Prometheus metric:
 
 All metrics are exposed at [/actuator/prometheus](http://localhost:8080/actuator/prometheus).
 
-This repository also contains a configuration for Prometheus, which scrapes the application. It runs at [localhost:9090](http://localhost:9090).
+This repository also contains a configuration for Prometheus, which scrapes the application.
 Both the application and Prometheus are brought up using Docker Compose.
 
 ## Pre-requisites
@@ -22,6 +22,9 @@ Both the application and Prometheus are brought up using Docker Compose.
 ## Running
 
 `./gradlew build docker dockerComposeUp`
+
+* application runs at [localhost:8080](http://localhost:8080/actuator/prometheus)
+* Prometheus runs at [localhost:9090](http://localhost:9090)
 
 ## Stopping
 
