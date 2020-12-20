@@ -11,13 +11,13 @@ different types of Prometheus metric:
 
 All metrics are exposed at [/actuator/prometheus](http://localhost:8080/actuator/prometheus).
 
-This repository also contains a configuration for Prometheus, which scrapes the application. 
+This repository also contains a configuration for Prometheus, which scrapes the application. It runs at [localhost:9090](http://localhost:9090).
 Both the application and Prometheus are brought up using Docker Compose.
 
 ## Pre-requisites
 
 * JDK 11+
-* Docker (unless you just want to run the application)
+* Docker (unless you just want to run the application without Prometheus)
 
 ## Running
 
