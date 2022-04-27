@@ -1,5 +1,7 @@
-Repository to go along with the *The Four Types Of Prometheus Metrics* [YouTube video](https://youtu.be/nJMRmhbY5hY) and article
-at [tomgregory.com](https://tomgregory.com/the-four-types-of-prometheus-metrics).
+Repository to accompany *The Four Types Of Prometheus Metrics* ([YouTube video](https://youtu.be/nJMRmhbY5hY) | [article](https://tomgregory.com/the-four-types-of-prometheus-metrics)).
+
+[<img src="The-4-types-of-Prometheus-metrics.png" width="500px"/>](https://tomgregory.com/the-four-types-of-prometheus-metrics)
+
 
 It contains an application that has 4 controllers to simulate the 4
 different types of Prometheus metric:
