@@ -29,3 +29,6 @@ Both the application and Prometheus are brought up using Docker Compose.
 ## Stopping
 
 `./gradlew dockerComposeDown`
+
+## Need further support?
+Contact me if you need help at tom@tomgregory.com.
